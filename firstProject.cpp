@@ -20,7 +20,7 @@ void zeroFinder(double a, double b, double c)
     std::cout << "The solutions are:\n";
     if (real)
     {
-        if (plusSolution != minusSolution)
+        if (plusSolution == minusSolution)
         {
             std::cout << "The solution is:\n" << plusSolution << " (multiplicity 2)\n"; //finds the solution for discriminant = 0
             std::cout << "The x-intercept is:\n (" << plusSolution << ", 0)";
@@ -59,5 +59,6 @@ int main()
     vertexFinder(aValue, bValue, cValue);
 
     return 0;
+
 
 }

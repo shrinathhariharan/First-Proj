@@ -35,7 +35,3 @@ Y-intercept: (0, 6)
 X-intercepts: (2, 0), (3, 0)
 Vertex: (2.5, -0.25)
 ```
-
-## Note
-
-This was a learning project created while starting to learn C++. The code structure reflects beginner-level practices and serves as a foundation for understanding procedural programming concepts.
